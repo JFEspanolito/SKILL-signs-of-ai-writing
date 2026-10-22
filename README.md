@@ -57,7 +57,6 @@ Edit docs/architecture.md to remove vague associations, negative parallelisms, a
 ## Sources
 
 - [Wikipedia:Signs of AI writing (WP:AISIGNS)](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing), maintained by Wikipedia's [WikiProject AI Cleanup](https://en.wikipedia.org/wiki/Wikipedia:WikiProject_AI_Cleanup).
-- Repository layout convention adapted from [Emil Kowalski's skill repository structure](https://github.com/emilkowalski).
 
 ## License
 
