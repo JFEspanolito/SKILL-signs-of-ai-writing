@@ -1,6 +1,7 @@
 ---
 name: writing-pattern-audit
 description: "Trigger: AI writing audit, humanize text, remove AI patterns, editorial review, WP:AISIGNS. Audit and edit text using the 101 rules from Wikipedia's Signs of AI Writing."
+license: CC-BY-SA-4.0
 ---
 
 # Universal Rules for Avoiding AI-Generated Writing Patterns
@@ -278,6 +279,17 @@ These complementary rules follow from the publication's warnings and limitations
 
 101\. Do not conceal substantive problems through cosmetic editing. Correct unsupported claims, fabricated references, inaccurate attribution, and superficial analysis first. Maintain transparency about AI assistance whenever the context or applicable rules require it.
 
+## Finding Severity Classification
+
+Classify each audit finding using one of four severity levels:
+
+- P0 — Critical: Factual inaccuracies, fabricated references, misleading claims, or serious source-integrity problems.
+- P1 — High: Significant structural problems, unsupported significance claims, vague associations, and applicable high-frequency indicators identified by Wikipedia.
+- P2 — Medium: Formulaic writing patterns, repetitive constructions, unnecessary transitions, unnatural phrasing, and clarity issues.
+- P3 — Low: Minor stylistic inconsistencies, historical AI-writing indicators, and optional cosmetic improvements.
+
+Every audit finding must include its severity (`P0`–`P3`), applicable rule ID, exact source text, recommended replacement, and justification.
+
 ## Universal Operational Standard
 
 Apply these rules as a provider-independent editorial specification, with the following priority order:
@@ -292,3 +304,7 @@ When auditing a text, start with the five current-priority signs listed at the t
 Fundamental distinction: Content accuracy and verifiability are more important than cosmetic AI-writing indicators. A text without recognizable AI phrases can still be inaccurate, superficial, or fabricated.
 
 The objective is to produce specific, verifiable, coherent, and natural writing while preserving the author's intended voice, regardless of which language model generates or edits it.
+
+## Source and Attribution
+
+Adapted from Wikipedia contributors, [Wikipedia:Signs of AI writing (WP:AISIGNS)](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing) ([revision history](https://en.wikipedia.org/w/index.php?title=Wikipedia:Signs_of_AI_writing&action=history)), maintained by [WikiProject AI Cleanup](https://en.wikipedia.org/wiki/Wikipedia:WikiProject_AI_Cleanup). Distributed under the [Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/). This adaptation paraphrases and reorganizes the original guide into 101 operational rules, scope tags, severity classifications, and execution instructions for AI agents.
